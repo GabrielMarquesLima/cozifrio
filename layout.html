@@ -10,25 +10,80 @@
 </head>
 <body>
     <header>
-        <div class="containerFormas">
-            <div class="branco">
-                <picture>
-                    <img src="./img/logoCozifrio-header.png" alt="Logo Cozifrio">
-                </picture>
+        <div class="container">
+            <div class="containerFormas">
+                <div class="branco">
+                    <picture>
+                        <img src="./img/logoCozifrio-header.webp" alt="Logo Cozifrio">
+                    </picture>
+                </div>
+                <div class="azul"></div>
+                <div class="vermelho"></div>
             </div>
-            <div class="azul"></div>
-            <div class="vermelho"></div>
-        </div>
-        <menu class="itens">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./produtos.html">Produtos</a></li>
-            <li><a href="./contato.html">Contato</a></li>
-            <li><a href="./servicos.html">Serviços</a></li>
-            <li><a href="quemSomos.html">Quem Somos</a></li>
-        </menu>
-        <div class="botaoOrcamento">
-            <h1>Peça já seu orçamento</h1>
+            <div class="containerItens">
+                <div id="botaoHamburguer">
+                    <div class="picture" onclick="clickMenu()">
+                        <img src="./img/menuIcon.webp" alt="Menu Hamburguer">
+                    </div>
+                </div>
+                <menu class="itens" id="itens">
+                    <li><a href="./index.html"><h2>Home</h2></a></li>
+                    <li><a href="./produtos.html"><h2>Produtos</h2></a></li>
+                    <li><a href="./contato.html"><h2>Contato</h2></a></li>
+                    <li><a href="./servicos.html"><h2>Serviços</h2></a></li>
+                    <li><a href="quemSomos.html"><h2>Quem Somos</h2></a></li>
+                </menu>
+            </div>
+            <a href="./contato.html">
+                <h1>Peça já seu orçamento</h1>
+            </a>
         </div>
     </header>
+    <main>
+
+    </main>
+    <footer>
+        <div class="container">
+            <div class="parteCima">
+                <hr id="linhaAzul">
+                <hr id="linhaVermelha">
+            </div>
+            <div class="parteBaixo">
+                <div class="parteEsquerda">
+                    <picture id="logoCozifrio">
+                        <source media="(min-width: 1200px) and (max-width: 1400px)" srcset="./img/logoCozifrio-footer2.webp">
+                        <img src="./img/logoCozifrio-footer.webp" alt="Logo Cozifrio">
+                    </picture>
+                    <picture id="mindArtCreative">
+                        <source media="(min-width: 1200px) and (max-width: 1400px)" srcset="./img/logoMindArtCreative-footer2.webp">
+                        <img src="./img/logoMindArtCreative-footer.webp" alt="Logo Mind.art Creative">
+                    </picture>
+                    <picture id="mindArtWeb">
+                        <source media="(min-width: 1200px) and (max-width: 1400px)" srcset="./img/logoMindArtWeb-footer2.webp">
+                        <img src="./img/logoMindArtWeb-footer.webp" alt="Logo Mind.art Web">
+                    </picture>
+                </div>
+                <div class="parteDireita">
+                    <div class="cozifrio">
+                        <picture>
+                            <img src="./img/registrado.webp" alt="Simbolo de registrado">
+                        </picture>
+                        <h2>Copyright - Cozifrio</h2>
+                    </div>
+                    <h2>Projetado e desenvolvido por Gabriel Marques & Bruna Belico - Mind.art</h2>
+                </div>
+            </div>
+            <h1>Rua João Gilberto n° 569 - Itaquaquecetuba - SP</h1>
+        </div>
+    </footer>
+    <script>
+            function clickMenu() {
+        if (itens.style.display == 'flex') {
+            itens.style.display = 'none';
+        } else {
+            itens.style.display = 'flex';
+        }
+        }
+    </script>
 </body>
 </html>
