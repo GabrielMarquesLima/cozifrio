@@ -1,0 +1,50 @@
+main > .containerBanner{
+    display: flex;
+    background-color: #101520;
+    align-items: center;
+    margin-top: 30px;
+}
+main > .containerBanner > .ladoEsquerdo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    row-gap: 20px;
+}
+main > .containerBanner > .ladoEsquerdo > h1{
+    color: #ECECEC;
+    text-align: center;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+main > .containerBanner > .ladoEsquerdo > .subtitulo{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+main > .containerBanner > .ladoEsquerdo > .subtitulo > hr{
+    width: 46px;
+    border: none;
+    height: 3px;
+    background-color: #ECECEC;
+    margin: 0;
+}
+main > .containerBanner > .ladoEsquerdo > .subtitulo > h2{
+    color: #ECECEC;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+}
+main > .containerBanner > picture{
+    padding: 0;
+    margin: 0;
+}
+main > .containerBanner > picture > img{
+    width: 674px;
+    height: 473px;
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+}

@@ -1,14 +1,14 @@
 @font-face {
-    font-family: 'Actor', sans-serif;
-    src: url(./fontes/Actor/Actor-Regular.ttf) format(truetype);
+    font-family: 'Actor';
+    src: url(./fontes/actor/Actor-Regular.ttf) format(truetype);
 }
 @font-face {
-    font-family: 'League Gothic', sans-serif;
-    src: url(./fontes/League_Gothic/LeagueGothic-Regular-VariableFont_wdth.ttf) format(truetype);
+    font-family: 'League Gothic';
+    src: url(./fontes/leagueGothic/static/LeagueGothic-Regular.ttf) format(truetype);
 }
 @font-face {
-    font-family: 'Montserrat', sans-serif;
-    src: url(./fontes/Montserrat/Montserrat-VariableFont_wght.ttf) format(truetype);
+    font-family: 'Montserrat';
+    src: url(./fontes/montserrat/Montserrat-VariableFont_wght.ttf) format(truetype);
 }
 a{
     text-decoration: none;
@@ -20,7 +20,7 @@ html{
     background-color: #E6E6E6;
 }
 header > .container{
-    width: 100vw;
+    width: 100%;
     display: flex;
 }
 header > .container > .containerFormas {

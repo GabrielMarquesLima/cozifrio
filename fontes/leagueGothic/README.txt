@@ -7,14 +7,14 @@ League Gothic is a variable font with this axis:
   wdth
 
 This means all the styles are contained in a single file:
-  League_Gothic/LeagueGothic-Regular-VariableFont_wdth.ttf
+  LeagueGothic-Regular-VariableFont_wdth.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
 in those cases you can use the static font files for League Gothic:
-  League_Gothic/static/LeagueGothic_Condensed-Regular.ttf
-  League_Gothic/static/LeagueGothic_SemiCondensed-Regular.ttf
-  League_Gothic/static/LeagueGothic-Regular.ttf
+  static/LeagueGothic_Condensed-Regular.ttf
+  static/LeagueGothic_SemiCondensed-Regular.ttf
+  static/LeagueGothic-Regular.ttf
 
 Get started
 -----------
