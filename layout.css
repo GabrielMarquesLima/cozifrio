@@ -22,6 +22,7 @@ html{
 header > .container{
     width: 100%;
     display: flex;
+    margin-bottom: 30px;
 }
 header > .container > .containerFormas {
     display: flex;
@@ -110,7 +111,7 @@ header > .container > a > h1{
     justify-content: center;
     width: 350px;
     height: 65px;
-    transition: 0.2s;
+    transition: 0.5s;
 }
 header > .container > a > h1:hover,
 header > .container > a > h1:active{
@@ -429,7 +430,6 @@ footer > .container > h1{
         display: block;
         cursor: pointer;
         transition: 0.2s;
-        margin-top: 100px;
     }
     #botaoHamburguer:hover,
     #botaoHamburguer:active{
@@ -449,12 +449,7 @@ footer > .container > h1{
     }
     header > .container > a{
         align-items: baseline;
-        padding: 25px 20px 0 0;
-    }
-    header > .container > a > h1{
-        width: 254px;
-        height: 53px;
-        font-size: 22px;
+        display: none;
     }
     #linhaAzul{
         width: 60vw;
