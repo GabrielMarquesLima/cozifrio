@@ -253,8 +253,7 @@ main > .containerMVV > .containerCards > .card > h2{
         margin-left: 10px;
     }
     main > .containerBanner > .ladoEsquerdo > .subtitulo > hr{
-        width: 40px;
-        height: 2px;
+        display: none;
     }
     main > .containerBanner > .ladoEsquerdo > .subtitulo > h2{
         font-size: 14px;
@@ -317,8 +316,7 @@ main > .containerMVV > .containerCards > .card > h2{
         margin-left: 10px;
     }
     main > .containerBanner > .ladoEsquerdo > .subtitulo > hr{
-        width: 40px;
-        height: 2px;
+        display: none;
     }
     main > .containerBanner > .ladoEsquerdo > .subtitulo > h2{
         font-size: 14px;
@@ -384,13 +382,11 @@ main > .containerMVV > .containerCards > .card > h2{
         margin-left: 5px;
     }
     main > .containerBanner > .ladoEsquerdo > .subtitulo > hr{
-        width: 40px;
-        height: 2px;
-        margin: -13px 0 0 0;
+        display: none;
     }
     main > .containerBanner > .ladoEsquerdo > .subtitulo > h2{
         font-size: 14px;
-        margin-left: -45px;
+        text-align: center;
     }
     main > .containerBanner > picture > img{
         display: none;
@@ -495,13 +491,11 @@ main > .containerMVV > .containerCards > .card > h2{
         margin-left: 5px;
     }
     main > .containerBanner > .ladoEsquerdo > .subtitulo > hr{
-        width: 40px;
-        height: 2px;
-        margin: -13px 0 0 0;
+        display: none;
     }
     main > .containerBanner > .ladoEsquerdo > .subtitulo > h2{
         font-size: 14px;
-        margin-left: -45px;
+        text-align: center;
     }
     main > .containerBanner > picture > img{
         display: none;
@@ -609,14 +603,12 @@ main > .containerMVV > .containerCards > .card > h2{
         margin-left: 5px;
     }
     main > .containerBanner > .ladoEsquerdo > .subtitulo > hr{
-        width: 40px;
-        height: 2px;
-        margin: -13px 0 0 0;
         display: none;
     }
     main > .containerBanner > .ladoEsquerdo > .subtitulo > h2{
         font-size: 14px;
         padding: 10px;
+        text-align: center;
     }
     main > .containerBanner > picture > img{
         display: none;
