@@ -91,7 +91,7 @@ main > .cardServicos > .card > .ladoEsquerdo > h2{
 }
 main > .cardServicos > .card > .ladoEsquerdo > h3{
     color: #E6E6E6;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 22.517px;
     font-style: normal;
     font-weight: 600;
@@ -107,7 +107,7 @@ main > .cardServicos > .card > .ladoEsquerdo > a{
 main > .cardServicos > .card > .ladoEsquerdo > a > h4{
     background-color: #911D0E;
     color: #FFF;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18.43px;
     font-style: normal;
     font-weight: 500;
