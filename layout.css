@@ -637,10 +637,6 @@ footer > .container > h1{
         cursor: pointer;
         transition: 0.2s;
     }
-    #botaoHamburguer > .picture > picture > img{
-        width: 49px;
-        height: 42px;
-    }
     #botaoHamburguer:hover,
     #botaoHamburguer:active{
         transform: scale(1.08);
@@ -748,10 +744,6 @@ footer > .container > h1{
         display: block;
         cursor: pointer;
         transition: 0.2s;
-    }
-    #botaoHamburguer > .picture > picture > img{
-        width: 49px;
-        height: 42px;
     }
     #botaoHamburguer:hover,
     #botaoHamburguer:active{
