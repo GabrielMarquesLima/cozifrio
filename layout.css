@@ -68,7 +68,7 @@ header > .container > .containerItens{
 #botaoHamburguer{
     display: none;
 }
-#botaoHamburguer > .picture > img{
+#botaoHamburguer > .picture > picture > img{
     width: 52px;
     height: 45px;
 }
@@ -637,7 +637,7 @@ footer > .container > h1{
         cursor: pointer;
         transition: 0.2s;
     }
-    #botaoHamburguer > .picture > img{
+    #botaoHamburguer > .picture > picture > img{
         width: 48px;
         height: 41px;
     }
@@ -749,7 +749,7 @@ footer > .container > h1{
         cursor: pointer;
         transition: 0.2s;
     }
-    #botaoHamburguer > .picture > img{
+    #botaoHamburguer > .picture > picture > img{
         width: 48px;
         height: 41px;
     }
