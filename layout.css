@@ -8,7 +8,7 @@
 }
 @font-face {
     font-family: 'Montserrat';
-    src: url(./fontes/montserrat/Montserrat-VariableFont_wght.ttf) format(truetype);
+    src: url(./fontes/montserrat/Montserrat-VariableFont_wdht.ttf) format(truetype);
 }
 a{
     text-decoration: none;
