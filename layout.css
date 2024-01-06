@@ -6,9 +6,10 @@
     font-family: 'League Gothic';
     src: url(./fontes/leagueGothic/LeagueGothic-Regular-VariableFont_wdth.ttf) format(truetype);
 }
-@font-face {
+@font-face{
     font-family: 'Montserrat';
-    src: url(./fontes/montserrat/static/Montserrat-Black.ttf) format(truetype);
+    src: url(./fontes/Montserrat/Montserrat-VariableFont_wght.ttf) format(truetype),
+         url(./fontes/Montserrat/Montserrat-Italic-VariableFont_wght.ttf) format(truetype)      
 }
 a{
     text-decoration: none;
