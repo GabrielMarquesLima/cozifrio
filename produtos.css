@@ -1,0 +1,145 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 60px;
+}
+main > .banner{
+    width: 100%;
+    height: 380px;
+    background-color: #101520;
+    background-image: url(./img/backgroundBannerServicos.webp);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main > .banner > h1{
+    color: #E6E6E6;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 80px;
+}
+main > .banner > .sub{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    margin-left: 80px;
+}
+main > .banner > .sub > hr{
+    width: 30px;
+    height: 2px;
+    border: 0;
+    background-color: white;
+    margin: 0;
+}
+main > .banner > .sub > h2{
+    color: #E6E6E6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+main > .titulo{
+    display: flex;
+    flex-direction: column;
+}
+main > .titulo > .azul,
+main > .titulo > .vermelho{
+    width: 570px;
+    height: 105px;
+    clip-path: polygon(15% 0, 100% 0%, 85% 100%, 0% 100%);
+}
+main > .titulo > .azul{
+    background-color: #081331;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+main > .titulo > .azul > h1{
+    color: #E6E6E6;
+    text-align: center;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4px;
+}
+main > .titulo > .vermelho{
+    background-color: #911D0E;
+    margin: -90px 0 0 -30px;
+
+}
+main > .containerCards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 90vw;
+    margin-bottom: 10px;
+}
+main > .containerCards > .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+    background-color: #D9D9D9;
+    width: 600px;
+    height: 470px;
+    box-shadow: 0px 6px 4.5px 0px rgba(0, 0, 0, 0.25);
+}
+main > .containerCards > .card > .informacoes{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    align-items: center;
+    background-color: #081331;
+    background-image: url(./img/backgroundCardServicos.webp);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    justify-content: space-evenly;
+}
+main > .containerCards > .card > .informacoes > h2{
+    width: 55%;
+    color: #E6E6E6;
+    text-align: center;
+    font-family: League Gothic;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#valvula > img{
+    width: 122px;
+    height: 288px;
+}
+main > .containerCards > .card > a{
+    display: flex;
+}
+main > .containerCards > .card > a > h2{
+    color: #D9D9D9;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 122.51%; /* 42.878px */
+    letter-spacing: -2.45px;
+    background-color: #911D0E;
+    padding: 20px 110px 20px 110px;
+    clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+    transition: 0.3s;
+}
+main > .containerCards > .card > a > h2:hover,
+main > .containerCards > .card > a > h2:active{
+    transform: scale(1.05);
+    background-color: #9b1706;
+}   
