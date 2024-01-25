@@ -296,6 +296,7 @@ main > .containerCards > .card > .linhas{
         width: 100%;
         padding-right: 0;
         justify-content: center;
+        align-items: center;
     }
     main > .informacoes > hr{
         display: none;
@@ -367,6 +368,7 @@ main > .containerCards > .card > .linhas{
         width: 100%;
         padding-right: 0;
         justify-content: center;
+        align-items: center;
     }
     main > .informacoes > hr{
         display: none;
@@ -440,6 +442,7 @@ main > .containerCards > .card > .linhas{
         width: 100%;
         padding-right: 0;
         justify-content: center;
+        align-items: center;
     }
     main > .informacoes > hr{
         display: none;
