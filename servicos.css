@@ -230,7 +230,10 @@ main > .containerCards > .card > .linhas{
         height: 342px;
     }
 }
-@media (min-width: 576px) and ( max-width: 767px){
+@media (min-width: 576px) and (max-width: 767px){
+    main > h1{
+        background-image: none;
+    }
     main > h2{
         font-size: 60px;
         width: 95%;
