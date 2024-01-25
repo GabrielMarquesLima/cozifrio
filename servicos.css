@@ -61,7 +61,6 @@ main > .informacoes > p{
 main > .containerCards{
     width: 100%;
     background-color: #101520;
-    border-radius: 10px;
     padding: 40px 0;
 }
 main > .containerCards > .card{
@@ -374,7 +373,7 @@ main > .containerCards > .card > .linhas{
         margin: 0;
     }
     main > .informacoes > p{
-        font-size: 25px;
+        font-size: 20px;
         width: 95%;
         text-align: center;
     }   
