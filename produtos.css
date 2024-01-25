@@ -8,7 +8,7 @@ main > .banner{
     width: 100%;
     height: 380px;
     background-color: #101520;
-    background-image: url(./img/backgroundBannerServicos.webp);
+    background-image: url(./img/backgroundBanner.webp);
     background-repeat: no-repeat;
     background-position: right;
     display: flex;
@@ -102,7 +102,7 @@ main > .containerCards > .card > .informacoes{
     height: 70%;
     align-items: center;
     background-color: #081331;
-    background-image: url(./img/backgroundCardServicos.webp);
+    background-image: url(./img/backgroundCard.webp);
     background-repeat: no-repeat;
     background-size: auto 100%;
     justify-content: space-evenly;

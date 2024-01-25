@@ -1,0 +1,504 @@
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 60px;
+}
+main > h1{
+    width: 100%;
+    height: 213px;
+    background-color: #101520;
+    background-image: url(./img/backgroundBannerServicos.webp);
+    background-repeat: no-repeat;
+    background-position: right center;
+    color: #E6E6E6;
+    text-align: center;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main > h2{
+    color: #101520;
+    text-align: center;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 69px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+main > .informacoes{
+    display: flex;
+    align-items: center;
+    background-color: #B7B7B991;
+    width: 95%;
+    gap: 10px;
+    padding-right: 20px;
+}
+main > .informacoes > hr{
+    width: 20px;
+    height: 500px;
+    margin: 40px 0 0 0;
+    background-color: #081331;
+    border: none;
+}
+main > .informacoes > p{
+    color: #101520;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+main > .containerCards{
+    width: 100%;
+    background-color: #101520;
+    border-radius: 10px;
+    padding: 40px 0;
+}
+main > .containerCards > .card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    margin-top: 40px;
+}
+main > .containerCards > .card > .itens{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main > .containerCards > .card > .itens > picture{
+    margin-left: 30px;
+}
+main > .containerCards > .card > .itens > .texto{
+    width: 60%;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+main > .containerCards > .card > .itens > .texto > h1{
+    color: #E6E6E6;
+    text-align: center;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 69px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.07px;
+}
+main > .containerCards > .card > .itens > .texto > p{
+    color: #E6E6E6;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+main > .containerCards > .card > a{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+main > .containerCards > .card > a > h3{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    padding: 20px 70px 20px 80px;
+    background-color: #911D0E;
+    clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
+    transition: 0.2s;
+}
+main > .containerCards > .card > a > h3:hover,
+main > .containerCards > .card > a > h3:active{
+    background-color: #ad2614;
+}
+main > .containerCards > .card > .linhas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#azul{
+    flex: 1;
+    clip-path: polygon(10% 0%, 100% 0, 90% 100%, 0% 100%);
+    background-color: #15244C;
+    height: 20px;
+    border: none;
+    margin: 0;
+}
+#vermelho{
+    flex: 1;
+    clip-path: polygon(10% 0%, 100% 0, 90% 100%, 0% 100%);
+    background-color: #911D0E;
+    height: 20px;
+    margin: -2px 0 0 -60px;
+    border: none;
+}
+#caldeirao > img{
+    width: 370px;
+    height: 318px;
+}
+#refrigeradores > img{
+    width: 376px;
+    height: 361px;
+}
+#freezer > img{
+    width: 279px;
+    height: 400px;
+}
+#freezerProntaEntrega > img{
+    width: 283px;
+    height: 400px;
+}
+#balcao > img{
+    width: 400px;
+    height: 383px;
+}
+#camara > img{
+    width: 390px;
+    height: 294px;
+}
+#forno > img{
+    width: 255px;
+    height: 423px;
+}
+/* @media (min-width: 1200px) and (max-width: 1400px){
+ 
+} */
+@media (min-width: 992px) and (max-width: 1199px){
+    main > .containerCards > .card > .itens > .texto{
+        width: 55%;
+    }
+    main > .containerCards > .card > .itens > .texto > h1{
+    font-size: 64px;
+    }
+    main > .containerCards > .card > .itens > .texto > p{
+    font-size: 25px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    main > .containerCards > .card > .itens > .texto{
+        width: 60%;
+    }
+    main > .containerCards > .card > .itens > .texto > h1{
+    font-size: 64px;
+    }
+    main > .containerCards > .card > .itens > .texto > p{
+    font-size: 25px;
+    }
+    #caldeirao > img{
+        width: 299px;
+        height: 257px;
+    }
+    #refrigeradores > img{
+        width: 304px;
+        height: 292px;
+    }
+    #freezer > img{
+        width: 226px;
+        height: 324px;
+    }
+    #freezerProntaEntrega > img{
+        width: 229px;
+        height: 324px;
+    }
+    #balcao > img{
+        width: 324px;
+        height: 310px;
+    }
+    #camara > img{
+        width: 316px;
+        height: 238px;
+    }
+    #forno > img{
+        width: 206px;
+        height: 342px;
+    }
+}
+@media (min-width: 576px) and ( max-width: 767px){
+    main > h2{
+        font-size: 60px;
+        width: 95%;
+    }
+    main > .informacoes > p{
+        font-size: 25px;
+    }
+    main > .containerCards > .card > .itens{
+        flex-direction: column;
+        justify-content: center;
+    }
+    main > .containerCards > .card > .itens > .texto{
+        width: 90%;
+        margin-right: 0;
+    }
+    main > .containerCards > .card > .itens > .texto > h1{
+    font-size: 55px;
+    }
+    main > .containerCards > .card > .itens > .texto > p{
+    font-size: 25px;
+    }
+    main > .containerCards > .card > .itens > picture{
+        margin-left: 0;
+    }
+    #caldeirao > img{
+        width: 299px;
+        height: 257px;
+    }
+    #refrigeradores > img{
+        width: 304px;
+        height: 292px;
+    }
+    #freezer > img{
+        width: 226px;
+        height: 324px;
+    }
+    #freezerProntaEntrega > img{
+        width: 229px;
+        height: 324px;
+    }
+    #balcao > img{
+        width: 324px;
+        height: 310px;
+    }
+    #camara > img{
+        width: 316px;
+        height: 238px;
+    }
+    #forno > img{
+        width: 206px;
+        height: 342px;
+    }
+}
+@media (min-width: 420px) and (max-width: 575px){
+    main > h1{
+        background-image: none;
+    }
+    main > h2{
+        font-size: 50px;
+        width: 95%;
+    }
+    main > .informacoes{
+        width: 100%;
+        padding-right: 0;
+        justify-content: center;
+    }
+    main > .informacoes > hr{
+        display: none;
+        margin: 0;
+    }
+    main > .informacoes > p{
+        font-size: 25px;
+        width: 95%;
+    }
+    main > .containerCards > .card > .itens{
+        flex-direction: column;
+        justify-content: center;
+    }
+    main > .containerCards > .card > .itens > .texto{
+        width: 90%;
+        margin-right: 0;
+    }
+    main > .containerCards > .card > .itens > .texto > h1{
+    font-size: 50px;
+    }
+    main > .containerCards > .card > .itens > .texto > p{
+    font-size: 25px;
+    }
+    main > .containerCards > .card > a > h3{
+        padding: 10px 20px;
+        clip-path: none;
+    }
+    main > .containerCards > .card > .itens > picture{
+        margin-left: 0;
+    }
+    #caldeirao > img{
+        width: 299px;
+        height: 257px;
+    }
+    #refrigeradores > img{
+        width: 304px;
+        height: 292px;
+    }
+    #freezer > img{
+        width: 226px;
+        height: 324px;
+    }
+    #freezerProntaEntrega > img{
+        width: 229px;
+        height: 324px;
+    }
+    #balcao > img{
+        width: 324px;
+        height: 310px;
+    }
+    #camara > img{
+        width: 316px;
+        height: 238px;
+    }
+    #forno > img{
+        width: 206px;
+        height: 342px;
+    }
+}
+@media (min-width: 320px) and (max-width: 419px){
+    main > h1{
+        background-image: none;
+    }
+    main > h2{
+        font-size: 40px;
+        width: 95%;
+    }
+    main > .informacoes{
+        width: 100%;
+        padding-right: 0;
+        justify-content: center;
+    }
+    main > .informacoes > hr{
+        display: none;
+        margin: 0;
+    }
+    main > .informacoes > p{
+        font-size: 25px;
+        width: 95%;
+        text-align: center;
+    }   
+    main > .containerCards > .card > .itens{
+        flex-direction: column;
+        justify-content: center;
+    }
+    main > .containerCards > .card > .itens > .texto{
+        width: 90%;
+        margin-right: 0;
+    }
+    main > .containerCards > .card > .itens > .texto > h1{
+    font-size: 45px;
+    }
+    main > .containerCards > .card > .itens > .texto > p{
+    font-size: 22px;
+    }
+    main > .containerCards > .card > a > h3{
+        padding: 10px 20px;
+        clip-path: none;
+        font-size: 26px;
+    }
+    main > .containerCards > .card > .itens > picture{
+        margin-left: 0;
+    }
+    #caldeirao > img{
+        width: 299px;
+        height: 257px;
+    }
+    #refrigeradores > img{
+        width: 274px;
+        height: 263px;
+    }
+    #freezer > img{
+        width: 226px;
+        height: 324px;
+    }
+    #freezerProntaEntrega > img{
+        width: 229px;
+        height: 324px;
+    }
+    #balcao > img{
+        width: 291px;
+        height: 279px;
+    }
+    #camara > img{
+        width: 284px;
+        height: 214px;
+    }
+    #forno > img{
+        width: 206px;
+        height: 342px;
+    }
+}
+@media (max-width: 319px){
+    main > h1{
+        background-image: none;
+    }
+    main > h2{
+        font-size: 40px;
+        width: 95%;
+    }
+    main > .informacoes{
+        width: 100%;
+        padding-right: 0;
+        justify-content: center;
+    }
+    main > .informacoes > hr{
+        display: none;
+        margin: 0;
+    }
+    main > .informacoes > p{
+        font-size: 20px;
+        width: 95%;
+        text-align: center;
+    }   
+    main > .containerCards > .card > .itens{
+        flex-direction: column;
+        justify-content: center;
+    }
+    main > .containerCards > .card > .itens > .texto{
+        width: 90%;
+        margin-right: 0;
+    }
+    main > .containerCards > .card > .itens > .texto > h1{
+    font-size: 35px;
+    }
+    main > .containerCards > .card > .itens > .texto > p{
+    font-size: 20px;
+    }
+    main > .containerCards > .card > a > h3{
+        padding: 10px 20px;
+        clip-path: none;
+        font-size: 24px;
+    }
+    main > .containerCards > .card > .itens > picture{
+        margin-left: 0;
+    }
+    #caldeirao > img{
+        width: 269px;
+        height: 231px;
+    }
+    #refrigeradores > img{
+        width: 246px;
+        height: 236px;
+    }
+    #freezer > img{
+        width: 203px;
+        height: 291px;
+    }
+    #freezerProntaEntrega > img{
+        width: 206px;
+        height: 291px;
+    }
+    #balcao > img{
+        width: 262px;
+        height: 251px;
+    }
+    #camara > img{
+        width: 255px;
+        height: 192px;
+    }
+    #forno > img{
+        width: 186px;
+        height: 308px;
+    }
+}
