@@ -1,0 +1,488 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 60px;
+}
+main > .containerBanner{
+    display: flex;
+    background-color: #101520;
+    align-items: center;
+    justify-content: space-between;
+}
+main > .containerBanner > .ladoEsquerdo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+main > .containerBanner > .ladoEsquerdo > h1{
+    color: #ECECEC;
+    text-align: center;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 20px;
+}
+main > .containerBanner > .ladoEsquerdo > .subtitulo{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+main > .containerBanner > .ladoEsquerdo > .subtitulo > hr{
+    width: 46px;
+    border: none;
+    height: 3px;
+    background-color: #ECECEC;
+    margin: 0;
+}
+main > .containerBanner > .ladoEsquerdo > .subtitulo > h2{
+    color: #ECECEC;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+}
+main > .containerBanner > picture{
+    padding: 0;
+    margin: 0;
+}
+main > .containerBanner > picture > img{
+    width: 674px;
+    height: 473px;
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+}
+main > .titulo{
+    display: flex;
+    flex-direction: column;
+}
+main > .titulo > .azul,
+main > .titulo > .vermelho{
+    width: 570px;
+    height: 105px;
+    clip-path: polygon(15% 0, 100% 0%, 85% 100%, 0% 100%);
+}
+main > .titulo > .azul{
+    background-color: #081331;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+main > .titulo > .azul > h1{
+    color: #E6E6E6;
+    text-align: center;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4px;
+}
+main > .titulo > .vermelho{
+    background-color: #911D0E;
+    margin: -90px 0 0 -30px;
+}
+main > .containerTexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+main > .containerTexto > hr{
+    width: 40%;
+    height: 6px;
+    border: none;
+    margin: 0 0 -2px 0;
+    background-color: #101520;
+}
+main > .containerTexto > p{
+    width: 90%;
+    background-color: #B7B7B970;
+    color: #101520;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 20px;
+    line-height: 120.071%; /* 40.824px */
+    letter-spacing: -1.36px;
+}
+main > hr{
+    width: 50%;
+    background-color: #8F8F8F;
+    margin: 0;
+    height: 4px;
+}
+main > .nota,
+main > .nota2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    column-gap: 5%;
+}
+main > .nota > hr,
+main > .nota2 > hr{
+    width: 5px;
+    height: auto;
+    background-color: #A91C08;
+    margin: 0;
+    border: none;
+}
+main > .nota > .texto,
+main > .nota2 > .texto{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+main > .nota > .texto > h1,
+main > .nota2 > .texto > h1{
+    color: #911D0E;
+    font-family: "League Gothic", sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120.071%; /* 84.05px */
+    letter-spacing: 7.7px;
+}
+main > .nota > .texto > p,
+main > .nota2 > .texto > p,
+main > .nota2 > .texto > ul > li{
+    color: #101520;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120.071%; /* 36.021px */
+    letter-spacing: 3.3px;
+}
+main > p{
+    color: #3B0903;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120.071%; /* 36.021px */
+    letter-spacing: 3.3px;
+}
+main > .nota2 > hr{
+    background-color: #101520 !important;
+}
+main > .nota2 > .texto > h1{
+    color: #101520 !important;
+}
+main > .nota2 > .texto > ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+main > .nota2 > .texto > ul > li{
+    list-style-type: disc;
+    font-size: 25px;
+}
+main > .nota2 > .texto > h2{
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120.071%; /* 33.62px */
+    letter-spacing: 3.08px;
+}
+@media (min-width: 1200px) and (max-width: 1400px){
+    main > .containerBanner > .ladoEsquerdo > h1{
+        font-size: 65px;
+    }
+    main > .containerBanner > .ladoEsquerdo > .subtitulo{
+        column-gap: 10px;
+        margin-left: 5px;
+    }
+    main > .containerBanner > .ladoEsquerdo > .subtitulo > hr{
+        width: 46px;
+        height: 3px;
+    }
+    main > .containerBanner > .ladoEsquerdo > .subtitulo > h2{
+        font-size: 16px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    main > .containerBanner > .ladoEsquerdo > h1{
+        font-size: 60px;
+    }
+    main > .containerBanner > .ladoEsquerdo > .subtitulo{
+        column-gap: 10px;
+        margin-left: 5px;
+    }
+    main > .containerBanner > .ladoEsquerdo > .subtitulo > hr{
+        width: 46px;
+        height: 3px;
+    }
+    main > .containerBanner > .ladoEsquerdo > .subtitulo > h2{
+        font-size: 14px;
+    }
+    main > .containerBanner > picture > img{
+        width: 461px;
+        height: 383px;
+        clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    main > .titulo > .azul,
+    main > .titulo > .vermelho{
+        width: 500px;
+        height: 100px;
+        clip-path: polygon(15% 0, 100% 0%, 85% 100%, 0% 100%);
+    }
+    main > .titulo > .azul > h1{
+        font-size: 75px;
+    }
+    main > .titulo > .vermelho{
+        margin: -90px 0 0 -25px;
+    }
+    main > .containerTexto > p{
+        font-size: 30px;
+    }
+    main > .nota > .texto > h1,
+    main > .nota2 > .texto > h1{
+        font-size: 60px;
+    }
+    main > .nota > .texto > p,
+    main > .nota2 > .texto > p,
+    main > .nota2 > .texto > ul > li{
+        font-size: 25px;
+    }
+    main > .nota2 > .texto > h2{
+        font-size: 25px;
+        text-align: center;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    main > .containerBanner > .ladoEsquerdo > h1{
+        font-size: 45px;
+    }
+    main > .containerBanner > .ladoEsquerdo > .subtitulo{
+        column-gap: 0px;
+        margin-left: 10px;
+    }
+    main > .containerBanner > .ladoEsquerdo > .subtitulo > hr{
+        display: none;
+    }
+    main > .containerBanner > .ladoEsquerdo > .subtitulo > h2{
+        font-size: 14px;
+    }
+    main > .containerBanner > picture > img{
+        width: 369px;
+        height: 306px;
+        clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    main > .titulo > .azul,
+    main > .titulo > .vermelho{
+        width: 450px;
+        height: 90px;
+        clip-path: polygon(15% 0, 100% 0%, 85% 100%, 0% 100%);
+    }
+    main > .titulo > .azul > h1{
+        font-size: 65px;
+    }
+    main > .titulo > .vermelho{
+        margin: -82px 0 0 -20px;
+    }
+    main > .containerTexto > p{
+        font-size: 30px;
+    }
+    main > .nota > .texto > h1,
+    main > .nota2 > .texto > h1{
+        font-size: 60px;
+    }
+    main > .nota > .texto > p,
+    main > .nota2 > .texto > p,
+    main > .nota2 > .texto > ul > li{
+        font-size: 25px;
+    }
+    main > .nota2 > .texto > h2{
+        font-size: 25px;
+        text-align: center;
+    }
+}
+@media (min-width: 576px) and ( max-width: 767px){
+    main > .containerBanner > .ladoEsquerdo > h1{
+        font-size: 35px;
+        margin-left: 5px;
+    }
+    main > .containerBanner > .ladoEsquerdo > .subtitulo{
+        column-gap: 0px;
+        margin-left: 10px;
+    }
+    main > .containerBanner > .ladoEsquerdo > .subtitulo > hr{
+        display: none;
+    }
+    main > .containerBanner > .ladoEsquerdo > .subtitulo > h2{
+        font-size: 14px;
+    }
+    main > .containerBanner > picture > img{
+        width: 269px;
+        height: 223px;
+        clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    main > .titulo > .azul,
+    main > .titulo > .vermelho{
+        width: 400px;
+        height: 70px;
+        clip-path: polygon(15% 0, 100% 0%, 85% 100%, 0% 100%);
+    }
+    main > .titulo > .azul > h1{
+        font-size: 55px;
+    }
+    main > .titulo > .vermelho{
+        margin: -82px 0 0 -10px;
+    }
+    main > .containerTexto > p{
+        font-size: 30px;
+    }
+    main > .nota > .texto > h1,
+    main > .nota2 > .texto > h1{
+        font-size: 60px;
+    }
+    main > .nota > .texto > p,
+    main > .nota2 > .texto > p,
+    main > .nota2 > .texto > ul > li{
+        font-size: 25px;
+    }
+    main > .nota2 > .texto > h2{
+        font-size: 25px;
+        text-align: center;
+    }
+}
+@media (min-width: 420px) and (max-width: 575px){
+    main > .containerBanner > .ladoEsquerdo{
+        padding: 20px 0 20px 0;
+    }
+    main > .containerBanner > .ladoEsquerdo > h1{
+        font-size: 35px;
+        margin-left: 0;
+    }
+    main > .containerBanner > .ladoEsquerdo > .subtitulo{
+        column-gap: 0px;
+        margin-left: 5px;
+    }
+    main > .containerBanner > .ladoEsquerdo > .subtitulo > hr{
+        display: none;
+    }
+    main > .containerBanner > .ladoEsquerdo > .subtitulo > h2{
+        font-size: 14px;
+        text-align: center;
+    }
+    main > .containerBanner > picture > img{
+        display: none;
+    }
+    main > .titulo > .azul,
+    main > .titulo > .vermelho{
+        width: 400px;
+        height: 70px;
+        clip-path: polygon(15% 0, 100% 0%, 85% 100%, 0% 100%);
+    }
+    main > .titulo > .azul > h1{
+        font-size: 55px;
+    }
+    main > .titulo > .vermelho{
+        margin: -82px 0 0 -10px;
+    }
+    main > .containerTexto > p{
+        font-size: 30px;
+    }
+    main > .nota > .texto > h1,
+    main > .nota2 > .texto > h1{
+        font-size: 60px;
+    }
+    main > .nota > .texto > p,
+    main > .nota2 > .texto > p,
+    main > .nota2 > .texto > ul > li{
+        font-size: 25px;
+    }
+    main > .nota2 > .texto > h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    main > .nota > hr,
+    main > .nota2 > hr{
+        display: none;
+    }
+    main > .nota > .texto,
+    main > .nota2 > .texto{
+        width: 80%;
+        justify-content: center;
+        display: flex;
+    }
+    main > p{
+        font-size: 25px;
+    }
+}
+@media (min-width: 320px) and (max-width: 419px){
+    main > .containerBanner > .ladoEsquerdo{
+        padding: 20px 0 20px 0;
+    }
+    main > .containerBanner > .ladoEsquerdo > h1{
+        font-size: 35px;
+        margin-left: 0;
+    }
+    main > .containerBanner > .ladoEsquerdo > .subtitulo{
+        column-gap: 0px;
+        margin-left: 5px;
+    }
+    main > .containerBanner > .ladoEsquerdo > .subtitulo > hr{
+        display: none;
+    }
+    main > .containerBanner > .ladoEsquerdo > .subtitulo > h2{
+        font-size: 14px;
+        text-align: center;
+    }
+    main > .containerBanner > picture > img{
+        display: none;
+    }
+    main > .titulo > .azul,
+    main > .titulo > .vermelho{
+        width: 280px;
+        height: 60px;
+        clip-path: polygon(15% 0, 100% 0%, 85% 100%, 0% 100%);
+    }
+    main > .titulo > .azul > h1{
+        font-size: 45px;
+    }
+    main > .titulo > .vermelho{
+        margin: -65px 0 0 -5px;
+    }
+    main > .containerTexto > p{
+        font-size: 25px;
+        text-align: center;
+    }
+    main > .nota > .texto > h1,
+    main > .nota2 > .texto > h1{
+        font-size: 45px;
+        text-align: center;
+    }
+    main > .nota > .texto > p,
+    main > .nota2 > .texto > p,
+    main > .nota2 > .texto > ul > li{
+        font-size: 20px;
+        text-align: center;
+    }
+    main > .nota2 > .texto > h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    main > .nota > hr,
+    main > .nota2 > hr{
+        display: none;
+    }
+    main > .nota > .texto,
+    main > .nota2 > .texto{
+        width: 90%;
+        justify-content: center;
+        display: flex;
+    }
+    main > p{
+        font-size: 18px;
+    }
+}
