@@ -1,0 +1,1004 @@
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 60px;
+}
+main > h1{
+    width: 100%;
+    height: 213px;
+    background-color: #101520;
+    background-image: url(./img/backgroundBannerServicos.webp);
+    background-repeat: no-repeat;
+    background-position: right center;
+    color: #E6E6E6;
+    text-align: center;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main > h2{
+    color: #101520;
+    text-align: center;
+    font-family: "League Gothic", sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.4px;
+}
+main > picture > img{
+    width: 509px;
+    height: 437px;
+}
+main > p{
+    color: #8A8A8A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -2.1px;
+}
+main > .informacoes{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    background-color: #B7B7B991;
+}
+main > .informacoes > hr{
+    width: 5px;
+    height: auto;
+    background-color: #081331;
+    border: none;
+    margin: 0;
+}
+main > .informacoes > p{
+    color: #101520;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -2.52px;
+    width: 90%;
+    padding: 20px 0;
+}
+main > .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 98%;
+    row-gap: 40px;
+}
+main > .card > .titulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
+}
+main > .card > .titulo > h1{
+    color: #081331;
+    text-align: center;
+    font-family: "League Gothic", sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    padding-right: 20px;
+}
+main > .card > .titulo > hr{
+    height: 4px;
+    background-color: #C0C0C0;
+    border: none;
+    margin: 0;
+    flex: 1;
+}
+main > .card > p{
+    color: #454548;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}
+main > .card > p > span{
+    color: #911D0E;
+}
+#painel > img{
+    width: 1324px;
+    height: 577.619px;
+}
+#painel2 > img{
+    width: 1298px;
+    height: 537px;
+}
+#painel3{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    column-gap: 30px;
+}
+#painel3 > picture > img{
+    width: 350px;
+    height: 688px;
+}
+#painel3 > p{
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.05px;
+}
+main > hr{
+    width: 80%;
+    height: 4px;
+    background-color: #9F9F9F;
+    border: none;
+    margin: 0;
+}
+main > .card2{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+main > .card2 > h1{
+    color: #911D0E;
+    font-family: "League Gothic", sans-serif;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.95px;
+}
+main > .card2 > p{
+    color: #454548;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.14px;
+}
+main > .nota{
+    width: 90% !important;
+}
+main > .nota > p{
+    font-size: 32px;
+}
+main > .containerCaldeiroesEspeciais{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+main > .containerCaldeiroesEspeciais > .linhas{
+    display: flex;
+    width: 60%;
+    height: 5px;
+}
+#azul{
+    flex: 1;
+    height: auto;
+    background-color: #14205F;
+    border: none;
+    margin: 0;
+}
+#vermelho{
+    flex: 1;
+    background-color: #911D0E;
+    border: none;
+    margin: 0;
+    height: auto;
+}
+main > .containerCaldeiroesEspeciais > .texto{
+    background-color: #B7B7B97D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    width: 95%;
+    padding: 20px 0;
+}
+main > .containerCaldeiroesEspeciais > .texto > h1{
+    color: #101520;
+    font-family: "League Gothic", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-align: center;
+}
+main > .containerCaldeiroesEspeciais > .texto > p{
+    color: #343337;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    padding: 0 20px;
+    text-align: center;
+}
+main > .dadosTecnicos{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+main > .dadosTecnicos > .azul{
+    flex: 1;
+    height: 5px;
+    background-color: #000D2C;
+    border: none;
+    margin: 0;
+}
+main > .dadosTecnicos > .vermelho{
+    flex: 1;
+    height: 5px;
+    background-color: #911D0E;
+    border: none;
+    margin: 0;
+}
+main > .dadosTecnicos > h1{
+    color: #101520;
+    font-family: "League Gothic", sans-serif;
+    font-size: 73px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.19px;
+    padding: 0 10px;
+}
+main > .card3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    row-gap: 40px;
+}
+main > .card3 > h1{
+    color: #911D0E;
+    text-align: center;
+    font-family: "League Gothic", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+main > .card3 > p{
+    color: #454548;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.9px;
+}
+#tabela > img{
+    width: 1112px;
+    height: 1068px;
+}
+main > .exemplos{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+main > .exemplos > h1{
+    color: #000D2C;
+    text-align: center;
+    font-family: "League Gothic", sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+main > .exemplos > p{
+    color: #454548;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.14px;
+    text-align: center;
+    background-color: #B7B7B97D;
+    padding: 20px;
+}
+main > .card > ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    width: 90%;
+    text-align: center;
+}
+main > .card > ul > li{
+    list-style-type: disc !important;
+    color: #454548;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 37px;
+    font-weight: 400;
+    line-height: normal;
+}
+#exemplo1 > img{
+    width: 1137.6px;
+    height: 644.8px;
+}
+#exemplo2 > img{
+    width: 1124.8px;
+    height: 847.2px;
+}
+main > .normas{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    column-gap: 40px;
+}
+main > .normas > p{
+    color: #454548;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.37px;
+}
+#nr13 > img{
+    width: 288px;
+    height: 328px;
+}
+#nr12 > img{
+    width: 368px;
+    height: 362px;
+}
+main > .containerOferecemos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main > .containerOferecemos > h1{
+    color: #6C0F03;
+    font-family: "League Gothic", sans-serif;
+    font-size: 77px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 80%;
+    margin-bottom: -10px;
+}
+main > .containerOferecemos > .oferecemos{
+    width: 80%;
+    background-color: #CDCDCD;
+    padding: 10px;
+    row-gap: 30px;
+}
+main > .containerOferecemos > .oferecemos > p{
+    color: #000D2C;
+    text-align: center;
+    font-family: "League Gothic", sans-serif;
+    font-size: 77px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+main > .containerOferecemos > .oferecemos > .linhas{
+    width: 100%;
+    height: 6px;
+    display: flex;
+}
+main > a{
+    display: flex;
+}
+main > a > h1{
+    color: #E6E6E6;
+    text-align: center;
+    font-family: "League Gothic";
+    font-size: 69px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.07px;
+    padding: 30px 60px;
+    background-color: #911D0E;
+    transition: 0.3s;
+}
+main > a > h1:hover,
+main > a > h1:active{
+    transform: scale(1.05);
+    background-color: #a71805;
+}
+@media (min-width: 1200px) and (max-width: 1400px){
+    main > picture > img{
+        width: 407.2px;
+        height: 349.6px;
+    }
+    main > h2{
+        font-size: 70px;
+    }
+    main > .informacoes > p{
+        font-size: 32px;
+    }
+    main > .card > p{
+        font-size: 35px;
+    }
+    #painel3 > p{
+        font-size: 30px;
+    }
+    main > .card2 > p{
+        font-size: 32px;
+    }
+    #painel > img{
+        width: 1059.2px;
+        height: 462.095px;
+    }
+    #painel2 > img{
+        width: 908.6px;
+        height: 375.9px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    main > picture > img{
+        width: 407.2px;
+        height: 349.6px;
+    }
+    main > h2{
+        font-size: 60px;
+    }
+    main > .informacoes > p{
+        font-size: 32px;
+    }
+    main > .card > .titulo > h1{
+        font-size: 70px;
+    }
+    main > .card > p{
+        font-size: 30px;
+    }
+    #painel3 > p{
+        font-size: 25px;
+    }
+    main > .card2 > p{
+        font-size: 30px;
+    }
+    #painel > img{
+        width: 953.28px;
+        height: 415.886px;
+    }
+    #painel2 > img{
+        width: 908.6px;
+        height: 375.9px;
+    }
+    #painel3 > picture > img{
+        width: 280px;
+        height: 550.4px;
+    }
+    main > .containerCaldeiroesEspeciais > .texto > p{
+        font-size: 32px;
+    }
+    main > .containerCaldeiroesEspeciais > .texto > h1{
+        font-size: 50px;
+    }
+    main > .card3 > h1{
+        font-size: 50px;
+    }
+    main > .card3 > p{
+        font-size: 25px;
+    }
+    #tabela > img{
+        width: 901.12px;
+        height: 854.4px;
+    }
+    main > .exemplos > h1{
+        font-size: 58px;
+    }
+    main > .exemplos > p{
+        font-size: 32px;
+    }
+    main > .card > ul > li{
+        font-size: 32px;
+    }
+    #exemplo1 > img{
+        width: 910.08px;
+        height: 515.84px;
+    }
+    #exemplo2 > img{
+        width: 899.84px;
+        height: 677.76px;
+    }
+    main > .normas > p{
+        font-size: 28px;
+    }
+    #nr13 > img{
+        width: 230.4px;
+        height: 262.4px;
+    }
+    #nr12 > img{
+        width: 294.4px;
+        height: 289.6px;
+    }
+    main > .containerOferecemos > h1{
+        font-size: 60px;
+    }
+    main > .containerOferecemos > .oferecemos > p{
+        font-size: 50px;
+    }
+    main > a > h1{
+        font-size: 60px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    main > picture > img{
+        width: 407.2px;
+        height: 349.6px;
+    }
+    main > h2{
+        font-size: 50px;
+    }
+    main > .informacoes > p{
+        font-size: 28px;
+    }
+    main > .card > .titulo > h1{
+        font-size: 60px;
+    }
+    main > .card > p{
+        font-size: 25px;
+    }
+    #painel3 > p{
+        font-size: 25px;
+    }
+    main > .card2 > h1{
+        font-size: 60px;
+    }
+    main > .card2 > p{
+        font-size: 25px;
+    }
+    #painel > img{
+        width: 762.624px;
+        height: 332.709px;
+    }
+    #painel2 > img{
+        width: 726.88px;
+        height: 300.72px;
+    }
+    #painel3 > picture > img{
+        width: 252px;
+        height: 495.36px;
+    }
+    main > .containerCaldeiroesEspeciais{
+        align-items: center;
+    }
+    main > .containerCaldeiroesEspeciais > .texto > p{
+        font-size: 26px;
+    }
+    main > .containerCaldeiroesEspeciais > .texto > h1{
+        font-size: 50px;
+    }
+    main > .card3 > h1{
+        font-size: 50px;
+    }
+    main > .card3 > p{
+        font-size: 25px;
+    }
+    #tabela > img{
+        width: 720.896px;
+        height: 683.52px;
+    }
+    main > .exemplos > h1{
+        font-size: 50px;
+    }
+    main > .exemplos > p{
+        font-size: 28px;
+    }
+    main > .card > ul > li{
+        font-size: 30px;
+    }
+    #exemplo1 > img{
+        width: 482.4px;
+        height: 1260.9px;
+    }
+    #exemplo2 > img{
+        width: 435px;
+        height: 1835px;
+    }
+    main > .normas > p{
+        font-size: 28px;
+    }
+    #nr13 > img{
+        width: 230.4px;
+        height: 262.4px;
+    }
+    #nr12 > img{
+        width: 264.96px;
+        height: 260.64px;
+    }
+    main > .containerOferecemos > h1{
+        font-size: 55px;
+    }
+    main > .containerOferecemos > .oferecemos > p{
+        font-size: 40px;
+    }
+    main > a > h1{
+        font-size: 45px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    main > h1{
+        background-image: none;
+    }
+    main > picture > img{
+        width: 325.76px;
+        height: 279.68px;
+    }
+    main > p{
+        font-size: 25px;
+    }
+    main > h2{
+        font-size: 40px;
+    }
+    main > .informacoes > p{
+        font-size: 28px;
+    }
+    main > .card > .titulo > h1{
+        font-size: 60px;
+    }
+    main > .card > p{
+        font-size: 25px;
+    }
+    #painel3 > p{
+        font-size: 23px;
+    }
+    main > .card2 > h1{
+        font-size: 50px;
+    }
+    main > .card2 > p{
+        font-size: 25px;
+    }
+    #painel > img{
+        width: 549.089px;
+        height: 239.55px;
+    }
+    #painel2 > img{
+        width: 523.354px;
+        height: 216.518px;
+    }
+    #painel3{
+        align-items: normal;
+        column-gap: 5px;
+    }
+    #painel3 > picture > img{
+        width: 201.6px;
+        height: 396.288px;
+    }
+    main > .containerCaldeiroesEspeciais{
+        align-items: center;
+    }
+    main > .containerCaldeiroesEspeciais > .texto > p{
+        font-size: 26px;
+    }
+    main > .containerCaldeiroesEspeciais > .texto > h1{
+        font-size: 50px;
+    }
+    main > .card3 > h1{
+        font-size: 40px;
+    }
+    main > .card3 > p{
+        font-size: 25px;
+    }
+    main > .dadosTecnicos > h1{
+        font-size: 60px;
+    }
+    #tabela > img{
+        width: 504.627px;
+        height: 478.464px;
+    }
+    main > .exemplos > h1{
+        font-size: 40px;
+    }
+    main > .exemplos > p{
+        font-size: 24px;
+    }
+    main > .card > ul > li{
+        font-size: 26px;
+    }
+    #exemplo1 > img{
+        width: 482.4px;
+        height: 1260.9px;
+    }
+    #exemplo2 > img{
+        width: 435px;
+        height: 1835px;
+    }
+    main > .normas{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    main > .normas > p{
+        font-size: 28px;
+        text-align: center;
+    }
+    #nr13 > img{
+        width: 230.4px;
+        height: 262.4px;
+    }
+    #nr12 > img{
+        width: 264.96px;
+        height: 260.64px;
+    }
+    main > .containerOferecemos > h1{
+        font-size: 55px;
+    }
+    main > .containerOferecemos > .oferecemos > p{
+        font-size: 40px;
+    }
+    main > a > h1{
+        font-size: 40px;
+        padding: 12px 20px;
+    }
+}
+@media (min-width: 420px) and (max-width: 575px){
+    main > h1{
+        background-image: none;
+    }
+    main > picture > img{
+        width: 325.76px;
+        height: 279.68px;
+    }
+    main > p{
+        font-size: 25px;
+    }
+    main > h2{
+        font-size: 34px;
+    }
+    main > .informacoes > p{
+        font-size: 28px;
+    }
+    main > .card > .titulo > h1{
+        font-size: 50px;
+    }
+    main > .card > p{
+        font-size: 25px;
+    }
+    #painel3 > p{
+        font-size: 20px;
+    }
+    main > .card2 > h1{
+        font-size: 45px;
+        text-align: center;
+    }
+    main > .card2 > p{
+        font-size: 25px;
+        text-align: center;
+    }
+    #painel > img{
+        width: 384.362px;
+        height: 167.685px;
+    }
+    #painel2 > img{
+        width: 418.683px;
+        height: 173.214px;
+    }
+    #painel3{
+        align-items: normal;
+        column-gap: 5px;
+    }
+    #painel3 > picture > img{
+        width: 130.637px;
+        height: 256.795px;
+    }
+    main > .containerCaldeiroesEspeciais{
+        align-items: center;
+    }
+    main > .containerCaldeiroesEspeciais > .texto > p{
+        font-size: 24px;
+    }
+    main > .containerCaldeiroesEspeciais > .texto > h1{
+        font-size: 40px;
+    }
+    main > .card3 > h1{
+        font-size: 35px;
+    }
+    main > .card3 > p{
+        font-size: 25px;
+    }
+    main > .dadosTecnicos > h1{
+        font-size: 45px;
+    }
+    #tabela > img{
+        width: 403.702px;
+        height: 382.771px;
+    }
+    main > .exemplos > h1{
+        font-size: 40px;
+    }
+    main > .exemplos > p{
+        font-size: 24px;
+    }
+    main > .card > ul > li{
+        font-size: 26px;
+    }
+    #exemplo1 > img{
+        width: 385.92px;
+        height: 1008.72px;
+    }
+    #exemplo2 > img{
+        width: 348px;
+        height: 1468px;
+    }
+    main > .normas{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    main > .normas > p{
+        font-size: 28px;
+        text-align: center;
+    }
+    #nr13 > img{
+        width: 230.4px;
+        height: 262.4px;
+    }
+    #nr12 > img{
+        width: 264.96px;
+        height: 260.64px;
+    }
+    main > .containerOferecemos > h1{
+        font-size: 55px;
+    }
+    main > .containerOferecemos > .oferecemos > p{
+        font-size: 40px;
+    }
+    main > a > h1{
+        font-size: 40px;
+        padding: 12px 20px;
+    }
+}
+@media (min-width: 320px) and (max-width: 419px){
+    main > h1{
+        background-image: none;
+    }
+    main > h1{
+        background-image: none;
+    }
+    main > picture > img{
+        width: 260.608px;
+        height: 223.744px;
+    }
+    main > p{
+        font-size: 20px;
+    }
+    main > h2{
+        font-size: 28px;
+    }
+    main > .informacoes{
+        width: 100%;
+    }
+    main > .informacoes > hr{
+        display: none;
+    }
+    main > .informacoes > p{
+        font-size: 24px;
+        width: 95%;
+        text-align: center;
+    }
+    main > .card > .titulo > h1{
+        font-size: 30px;
+    }
+    main > .card > p{
+        font-size: 18px;
+    }
+    #painel3 > p{
+        font-size: 15px;
+    }
+    main > .card2 > h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    main > .card2 > p{
+        font-size: 20px;
+        text-align: center;
+    }
+    #painel > img{
+        width: 307.49px;
+        height: 134.148px;
+    }
+    #painel2 > img{
+        width: 293.078px;
+        height: 121.25px;
+    }
+    #painel3{
+        align-items: normal;
+        column-gap: 5px;
+    }
+    #painel3 > picture > img{
+        width: 104.509px;
+        height: 205.436px;
+    }
+    main > .containerCaldeiroesEspeciais{
+        align-items: center;
+    }
+    main > .containerCaldeiroesEspeciais > .texto{
+        width: 90%;
+    }
+    main > .containerCaldeiroesEspeciais > .texto > p{
+        font-size: 20px;
+        width: 90%;
+    }
+    main > .containerCaldeiroesEspeciais > .texto > h1{
+        font-size: 30px;
+    }
+    main > .card3 > h1{
+        font-size: 30px;
+    }
+    main > .card3 > p{
+        font-size: 20px;
+    }
+    main > .dadosTecnicos > h1{
+        font-size: 40px;
+    }
+    #tabela > img{
+        width: 282.591px;
+        height: 267.94px;
+    }
+    main > .exemplos > h1{
+        font-size: 30px;
+    }
+    main > .exemplos > p{
+        font-size: 22px;
+    }
+    main > .card > ul > li{
+        font-size: 22px;
+    }
+    #exemplo1 > img{
+        width: 315px;
+        height: 1966px;
+    }
+    #exemplo2 > img{
+        width: 223px;
+        height: 2492px;
+    }
+    main > .normas{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    main > .normas > p{
+        font-size: 22px;
+        text-align: center;
+    }
+    #nr13 > img{
+        width: 184.32px;
+        height: 209.92px;
+    }
+    #nr12 > img{
+        width: 211.968px;
+        height: 208.512px;
+    }
+    main > .containerOferecemos > h1{
+        font-size: 40px;
+    }
+    main > .containerOferecemos > .oferecemos > p{
+        font-size: 35px;
+    }
+    main > a > h1{
+        font-size: 30px;
+        padding: 12px 20px;
+    }
+}
+@media (max-width: 319px){
+    main > h1{
+        background-image: none;
+    }
+}

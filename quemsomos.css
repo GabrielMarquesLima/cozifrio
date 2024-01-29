@@ -456,6 +456,8 @@ main > .nota2 > .texto > h2{
     main > .containerTexto > p{
         font-size: 25px;
         text-align: center;
+        padding: 0;
+        padding: 5px;
     }
     main > .nota > .texto > h1,
     main > .nota2 > .texto > h1{
@@ -467,6 +469,7 @@ main > .nota2 > .texto > h2{
     main > .nota2 > .texto > ul > li{
         font-size: 20px;
         text-align: center;
+        list-style: none;
     }
     main > .nota2 > .texto > h2{
         font-size: 20px;
