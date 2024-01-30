@@ -1,0 +1,308 @@
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 60px;
+}
+main > h1{
+    width: 100%;
+    height: 213px;
+    background-color: #101520;
+    background-image: url(./img/backgroundBannerServicos.webp);
+    background-repeat: no-repeat;
+    background-position: right center;
+    color: #E6E6E6;
+    text-align: center;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main > h2{
+    color: #101520;
+    text-align: center;
+    font-family: "League Gothic", sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.1px;
+}
+main > h3{
+    color: #F4F4F4;
+    text-align: center;
+    font-family: "League Gothic", sans-serif;
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.71px;
+    padding: 10px 60px;
+    clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+    background-color: #101520;
+}
+main > h4{
+    color: #343436;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -2.1px;
+    width: 80%;
+}
+main > .informacoes{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    background-color: #B7B7B991;
+}
+main > .informacoes > hr{
+    width: 5px;
+    height: auto;
+    background-color: #081331;
+    border: none;
+    margin: 0;
+}
+main > .informacoes > p{
+    color: #101520;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -2.52px;
+    width: 90%;
+    padding: 20px 0;
+}
+main > .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 98%;
+    row-gap: 40px;
+}
+main > .card > .titulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
+}
+main > .card > .titulo > h1{
+    color: #081331;
+    text-align: center;
+    font-family: "League Gothic", sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    padding-right: 20px;
+}
+main > .card > .titulo > hr{
+    height: 4px;
+    background-color: #C0C0C0;
+    border: none;
+    margin: 0;
+    flex: 1;
+}
+#imagem > picture{
+    width: 1042px;
+    height: 436px;
+}
+main > .card > p{
+    color: #454548;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.05px;
+}
+main > hr{
+    width: 80%;
+    height: 4px;
+    background-color: #9F9F9F;
+    border: none;
+    margin: 0;
+}
+main > .card2{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+main > .card2 > h1{
+    color: #911D0E;
+    font-family: "League Gothic", sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.95px;
+    text-align: center;
+}
+main > .card2 > p{
+    color: #454548;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.14px;
+    text-align: center;
+}
+main > .nota{
+    width: 90% !important;
+}
+main > .nota > p{
+    font-size: 32px;
+}
+main > a{
+    display: flex;
+}
+main > a > h1{
+    color: #E6E6E6;
+    text-align: center;
+    font-family: "League Gothic";
+    font-size: 69px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.07px;
+    padding: 30px 60px;
+    background-color: #911D0E;
+    transition: 0.3s;
+}
+main > a > h1:hover,
+main > a > h1:active{
+    transform: scale(1.05);
+    background-color: #a71805;
+}
+@media (min-width: 1200px) and (max-width: 1400px){
+    main > .informacoes > p{
+        font-size: 32px;
+    }
+    main > .card > .titulo > h1{
+        font-size: 70px;
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    main > .informacoes > p{
+        font-size: 32px;
+    }
+    main > .card > .titulo > h1{
+        font-size: 60px;
+    }
+    main > a > h1{
+        font-size: 60px;
+    }
+    main > picture > img{
+        width: 310.4px;
+        height: 305.6px;
+    }
+    #imagem > img{
+        width: 833.6px;
+        height: 348.8px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    main > .informacoes > p{
+        font-size: 28px;
+    }
+    main > a > h1{
+        font-size: 45px;
+    }
+    main > picture > img{
+        width: 310.4px;
+        height: 305.6px;
+    }
+    #imagem > img{
+        width: 666.88px;
+        height: 279.04px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    main > h1{
+        background-image: none;
+    }
+    main > .informacoes > p{
+        font-size: 28px;
+    }
+    main > .card > .titulo > h1{
+        font-size: 60px;
+    }
+    main > a > h1{
+        font-size: 40px;
+        padding: 12px 20px;
+    }
+    main > .informacoes > p{
+        font-size: 28px;
+    }
+    main > a > h1{
+        font-size: 45px;
+    }
+    main > picture > img{
+        width: 310.4px;
+        height: 305.6px;
+    }
+    #imagem > img{
+        width: 533.504px;
+        height: 223.232px;
+    }
+}
+@media (min-width: 420px) and (max-width: 575px){
+    main > h1{
+        background-image: none;
+    }
+    main > .informacoes > p{
+        font-size: 28px;
+    }
+    main > .card > .titulo > h1{
+        font-size: 50px;
+    }
+    main > a > h1{
+        font-size: 40px;
+        padding: 12px 20px;
+    }
+}
+@media (min-width: 320px) and (max-width: 419px){
+    main > h1{
+        background-image: none;
+    }
+    main > .informacoes{
+        width: 100%;
+    }
+    main > .informacoes > hr{
+        display: none;
+    }
+    main > .informacoes > p{
+        font-size: 24px;
+        width: 95%;
+        text-align: center;
+    }
+    main > .card > .titulo > h1{
+        font-size: 30px;
+    }
+    main > a > h1{
+        font-size: 30px;
+        padding: 12px 20px;
+    }
+
+}
+@media (max-width: 319px){
+    main > h1{
+        background-image: none;
+    }
+    main > .card > .titulo > h1{
+        font-size: 30px;
+    }
+}
