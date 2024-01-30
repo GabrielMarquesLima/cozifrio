@@ -193,17 +193,16 @@ main > a > h1:active{
     main > .card > .titulo > h1{
         font-size: 70px;
     }
-
+    main > .card2 > p{
+        font-size: 32px;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199px){
     main > .informacoes > p{
         font-size: 32px;
     }
     main > .card > .titulo > h1{
-        font-size: 60px;
-    }
-    main > a > h1{
-        font-size: 60px;
+        font-size: 50px;
     }
     main > picture > img{
         width: 310.4px;
@@ -213,13 +212,34 @@ main > a > h1:active{
         width: 833.6px;
         height: 348.8px;
     }
+    main > .card2 > h1{
+        font-size: 50px;
+    }
+    main > .card2 > p{
+        font-size: 30px;
+    }
+    main > h3{
+        font-size: 45px;
+    }
+    main > h2{
+        font-size: 50px;
+    }
+    main > h4{
+        font-size: 30px;
+    }
+    main > a > h1{
+        font-size: 45px;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px){
     main > .informacoes > p{
         font-size: 28px;
     }
-    main > a > h1{
-        font-size: 45px;
+    main > .card > .titulo > h1{
+        font-size: 40px;
+    }
+    main > .card > p{
+        font-size: 20px;
     }
     main > picture > img{
         width: 310.4px;
@@ -228,6 +248,24 @@ main > a > h1:active{
     #imagem > img{
         width: 666.88px;
         height: 279.04px;
+    }
+    main > .card2 > h1{
+        font-size: 40px;
+    }
+    main > .card2 > p{
+        font-size: 30px;
+    }
+    main > h3{
+        font-size: 45px;
+    }
+    main > h2{
+        font-size: 50px;
+    }
+    main > h4{
+        font-size: 30px;
+    }
+    main > a > h1{
+        font-size: 45px;
     }
 }
 @media (min-width: 576px) and (max-width: 767px){
@@ -238,17 +276,11 @@ main > a > h1:active{
         font-size: 28px;
     }
     main > .card > .titulo > h1{
-        font-size: 60px;
+        font-size: 30px;
     }
     main > a > h1{
         font-size: 40px;
         padding: 12px 20px;
-    }
-    main > .informacoes > p{
-        font-size: 28px;
-    }
-    main > a > h1{
-        font-size: 45px;
     }
     main > picture > img{
         width: 310.4px;
@@ -257,6 +289,27 @@ main > a > h1:active{
     #imagem > img{
         width: 533.504px;
         height: 223.232px;
+    }
+    main > .card2 > h1{
+        font-size: 40px;
+    }
+    main > .card2 > p{
+        font-size: 25px;
+    }
+    main > h3{
+        font-size: 35px;
+    }
+    main > h2{
+        font-size: 40px;
+    }
+    main > h4{
+        font-size: 28px;
+    }
+    main > a > h1{
+        font-size: 45px;
+    }
+    main > .card > p{
+        font-size: 20px;
     }
 }
 @media (min-width: 420px) and (max-width: 575px){
@@ -267,11 +320,44 @@ main > a > h1:active{
         font-size: 28px;
     }
     main > .card > .titulo > h1{
-        font-size: 50px;
+        font-size: 24px;
     }
     main > a > h1{
         font-size: 40px;
         padding: 12px 20px;
+    }
+    main > h1{
+        background-image: none;
+    }
+    main > picture > img{
+        width: 279.36px;
+        height: 275.04px;
+    }
+    #imagem > img{
+        width: 384.123px;
+        height: 160.727px;
+    }
+    main > .card2 > h1{
+        font-size: 35px;
+    }
+    main > .card2 > p{
+        font-size: 25px;
+    }
+    main > h3{
+        font-size: 26px;
+        padding: 10px 30px;
+    }
+    main > h2{
+        font-size: 40px;
+    }
+    main > h4{
+        font-size: 28px;
+    }
+    main > a > h1{
+        font-size: 35px;
+    }
+    main > .card > p{
+        display: none;
     }
 }
 @media (min-width: 320px) and (max-width: 419px){
@@ -296,7 +382,36 @@ main > a > h1:active{
         font-size: 30px;
         padding: 12px 20px;
     }
-
+    main > picture > img{
+        width: 251.424px;
+        height: 247.536px;
+    }
+    #imagem > img{
+        width: 307.298px;
+        height: 128.582px;
+    }
+    main > .card2 > h1{
+        font-size: 35px;
+    }
+    main > .card2 > p{
+        font-size: 20px;
+    }
+    main > h3{
+        font-size: 24px;
+        padding: 10px 30px;
+    }
+    main > h2{
+        font-size: 30px;
+    }
+    main > h4{
+        font-size: 22px;
+    }
+    main > a > h1{
+        font-size: 30px;
+    }
+    main > .card > p{
+        display: none;
+    }
 }
 @media (max-width: 319px){
     main > h1{
@@ -304,5 +419,13 @@ main > a > h1:active{
     }
     main > .card > .titulo > h1{
         font-size: 30px;
+    }
+    main > picture > img{
+        width: 251.424px;
+        height: 247.536px;
+    }
+    #imagem > img{
+        width: 307.298px;
+        height: 128.582px;
     }
 }
