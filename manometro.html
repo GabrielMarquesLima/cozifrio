@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/logo-title.png" type="image/x-icon">
+    <title>Cozifrio</title>
+    <link rel="stylesheet" href="./layout.css">
+    <link rel="stylesheet" href="./manometro.css">
+    <link rel="stylesheet" href="./reset.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="containerFormas">
+                <div class="branco">
+                    <picture>
+                        <img src="./img/logoCozifrio-header.webp" alt="Logo Cozifrio">
+                    </picture>
+                </div>
+                <div class="azul"></div>
+                <div class="vermelho"></div>
+            </div>
+            <div class="containerItens">
+                <div id="botaoHamburguer">
+                    <div class="picture" onclick="clickMenu()">
+                        <picture>
+                            <img src="./img/menuIcon.webp" alt="Menu Hamburguer">
+                        </picture>
+                    </div>
+                </div>
+                <menu class="itens" id="itens">
+                    <li><a href="./index.html"><h2>Home</h2></a></li>
+                    <li><a href="./produtos.html"><h2>Produtos</h2></a></li>
+                    <li><a href="./contato.html"><h2>Contato</h2></a></li>
+                    <li><a href="./servicos.html"><h2>Serviços</h2></a></li>
+                    <li><a href="quemsomos.html"><h2>Quem Somos</h2></a></li>
+                </menu>
+            </div>
+            <a href="./contato.html" class="delay-link">
+                <h1>Peça já seu orçamento</h1>
+            </a>
+        </div>
+    </header>
+    <main>
+        <h1>PRODUTOS</h1>
+        <h2>MANÕMETROS ESPECIAIS PARA CALDEIRÕES</h2>
+        <picture>
+            <img src="./img/manometroPng.webp" alt="Manômetro">
+        </picture>
+        <div class="informacoes">
+            <hr>
+            <p>A <span id="vermelho">Cozi</span><span id="azul">frio</span> disponibiliza a seus clientes uma linha de monômetros exclusivos para caldeirões, são manômetros com escala de 0 a 1kgf/cm², com escalas coloridas que facilitam o monitoramento durante o funcionamento.
+                <br><br>
+                A pressão máxima de trabalho de um caldeirão “Padrão de mercado” é a final da escala verde (0.5 kgf/cm²), porém o <span id="vermelho">Set Point é a abertura máxima da válvula</span> em relação a capacidade de gerar vapor do caldeirão, e pode ser um valor igual ou inferior ao final da escala verde.
+                <br><br>
+                Se o Set Point no auge de funcionamento do caldeirão estiver entre 0,4 e 0,5 kgf/cm², o caldeirão está em seu máximo rendimento. Mas se no auge do funcionamento estiver entre 0,3 e 0,4 kgf/cm², haverá maior de consumo de agua da camisa geradora de vapor, vaso de pressão do caldeirão.
+                <br><br>
+                Se o Set Point estiver abaixo de 0,3 kgf/cm² haverá consumo excessivo de agua da camisa geradora de vapor, maior borbulhamento da agua durante a fervura e consequentemente muita agua saindo pela válvula, neste caso, deve-se ajustar os queimadores ou a válvula.
+                <br><br>
+                Esse monitoramento afinado da pressão jamais seria possível com manômetros comuns, sem sensibilidade, sem escala colorida e com pressão final superior a pressão de projeto.
+                <br><br>
+                O pior é que em manômetros com escalas comuns sem as faixas coloridas, é mais complicado a interpretação do status do caldeirão durante o funcionamento.
+                <br><br>
+                É comum caldeirões funcionando equipados com manômetros comuns com escalas superiores a 1,5 kgf/cm² para pressão de trabalho de 0,5 kgf/cm². Não é correto e não se deve usar manômetros com escalas superioras a 1 kgf/cm² para caldeirões padrão de mercado com pressão de trabalho de 0,5 kgf/cm².
+                <br><br><br>
+                Por isso, os manômetros Cozifrio além de mais precisos em relação a escala, possuem faixas exclusivas coloridas, juntamente com indicações como <span id="verde">Normal</span>, <span id="amarelo">Atenção</span> e <span id="vermelho">Perigo</span>.
+                <br>
+                Tudo para uma perfeita interpretação, até mesmo do operador mais comum.
+            </p>
+        </div>
+        <div class="imagem2">
+            <picture id="imagem2">
+                <img src="./img/manometroPng2.webp" alt="Manômetro">
+            </picture>
+            <picture id="legenda">
+                <img src="./img/legendaManometro.webp" alt="Legenda">
+            </picture>
+        </div>
+        <p>Pela posição do ponteiro do manômetro durante o funcionamento, o status do caldeirão pode ser interpretado facilmente pela indicação Normal, Atenção ou Perigo.</p>
+        <div class="imagem3">
+            <picture id="imagem2">
+                <img src="./img/manometroPng3.webp" alt="Manômetro">
+            </picture>
+            <p>MANÔMETRO HORIZONTAL PARA MODELOS MODULARES</p>
+        </div>
+        <p>Da mesma forma que os manômetros verticais, a Cozifrio possui também manômetros horizontais (reto) além de adaptadores de ½ para equipar qualquer tipo de coluna de válvulas para caldeirões.</p>
+        <a href="./contato.html">
+            <h1>SOLICITE SEU ORÇAMENTO</h1>
+        </a>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="parteCima">
+                <hr id="linhaAzul">
+                <hr id="linhaVermelha">
+            </div>
+            <div class="parteBaixo">
+                <div class="parteEsquerda">
+                    <picture id="logoCozifrio">
+                        <source media="(min-width: 1200px) and (max-width: 1400px)" srcset="./img/logoCozifrio-footer2.webp">
+                        <img src="./img/logoCozifrio-footer.webp" alt="Logo Cozifrio">
+                    </picture>
+                    <picture id="mindArtCreative">
+                        <source media="(min-width: 1200px) and (max-width: 1400px)" srcset="./img/logoMindArtCreative-footer2.webp">
+                        <img src="./img/logoMindArtCreative-footer.webp" alt="Logo Mind.art Creative">
+                    </picture>
+                    <picture id="mindArtWeb">
+                        <source media="(min-width: 1200px) and (max-width: 1400px)" srcset="./img/logoMindArtWeb-footer2.webp">
+                        <img src="./img/logoMindArtWeb-footer.webp" alt="Logo Mind.art Web">
+                    </picture>
+                </div>
+                <div class="parteDireita">
+                    <div class="cozifrio">
+                        <picture>
+                            <img src="./img/registrado.webp" alt="Simbolo de registrado">
+                        </picture>
+                        <h2>Copyright - Cozifrio</h2>
+                    </div>
+                    <h2>Projetado e desenvolvido por Gabriel Marques & Bruna Belico - Mind.art</h2>
+                </div>
+            </div>
+            <h1>Rua João Gilberto n° 569 - Itaquaquecetuba - SP</h1>
+        </div>
+    </footer>
+    <script src="./botaoHamburguer.js"></script>
+    <script src="./delay.js"></script>
+</body>
+</html>

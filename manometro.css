@@ -1,0 +1,253 @@
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 60px;
+}
+main > h1{
+    width: 100%;
+    height: 213px;
+    background-color: #101520;
+    background-image: url(./img/backgroundBannerServicos.webp);
+    background-repeat: no-repeat;
+    background-position: right center;
+    color: #E6E6E6;
+    text-align: center;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main > h2{
+    color: #101520;
+    text-align: center;
+    font-family: "League Gothic", sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.1px;
+}
+main > picture > img{
+    width: 360px;
+    height: auto;
+}
+main > .informacoes{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    background-color: #B7B7B991;
+}
+main > .informacoes > hr{
+    width: 5px;
+    height: auto;
+    border: none;
+    margin: 0;
+    background-color: #081331;
+}
+main > .informacoes > p{
+    color: #101520;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -2.52px;
+    padding: 40px 0;
+    width: 98%;
+}
+#vermelho{
+    color: #911D0E;
+}
+#azul{
+    color: #081331;
+}
+#amarelo{
+    color: #7A5F00;
+}
+#verde{
+    color: #175C05;
+}
+main > .imagem2{
+    display: flex;
+    column-gap: 10%;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+#legenda > img{
+    width: 460px;
+    height: auto;
+}
+#imagem2{
+    width: 280px;
+}
+main > p{
+    color: #3E3D40;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -2.16px;
+}
+main > .imagem3{
+    display: flex;
+    width: 90%;
+    column-gap: 5%;
+    align-items: center;
+    justify-content: center;
+}
+main > .imagem3 > p{
+    color: #39393B;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -2.16px;
+    width: 40%;
+}
+main > a{
+    display: flex;
+}
+main > a > h1{
+    color: #E6E6E6;
+    text-align: center;
+    font-family: "League Gothic";
+    font-size: 69px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.07px;
+    padding: 30px 60px;
+    background-color: #911D0E;
+    transition: 0.3s;
+}
+main > a > h1:hover,
+main > a > h1:active{
+    transform: scale(1.05);
+    background-color: #a71805;
+}
+/* @media (min-width: 1200px) and (max-width: 1400px){
+
+} */
+@media (min-width: 992px) and (max-width: 1199px){
+    main > a > h1{
+        font-size: 45px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    main > a > h1{
+        font-size: 45px;
+    }
+    main > picture > img{
+        width: 270px;
+    }
+    #imagem2 > img{
+        width: 200px;
+    }
+    #legenda > img{
+        width: 280px;
+    }
+    main > p{
+        font-size: 30px
+    }
+    main > .imagem3 > p{
+        font-size: 30px;
+        width: 50%;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    main > h1{
+        background-image: none;
+    }
+    main > a > h1{
+        font-size: 45px;
+    }
+    main > picture > img{
+        width: 270px;
+    }
+    #imagem2 > img{
+        width: 180px;
+    }
+    #legenda > img{
+        width: 210px;
+    }
+    main > p{
+        font-size: 30px
+    }
+    main > .imagem3 > p{
+        font-size: 30px;
+        width: 50%;
+    }
+}
+@media (min-width: 420px) and (max-width: 575px){
+    main > h1{
+        background-image: none;
+    }
+    main > a > h1{
+        font-size: 35px;
+    }
+    main > picture > img{
+        width: 270px;
+    }
+    #imagem2 > img{
+        width: 140px;
+    }
+    #legenda > img{
+        width: 180px;
+    }
+    main > p{
+        font-size: 20px
+    }
+    main > .imagem3 > p{
+        font-size: 25px;
+        width: auto;
+    }
+    main > .informacoes > p{
+        font-size: 25px;
+    }
+}
+@media (min-width: 320px) and (max-width: 419px){
+    main > h1{
+        background-image: none;
+    }
+    main > a > h1{
+        font-size: 30px;
+        padding: 12px 20px;
+    }
+    main > picture > img{
+        width: 270px;
+    }
+    #imagem2 > img{
+        width: 120px;
+    }
+    #legenda > img{
+        width: 150px;
+    }
+    main > p{
+        font-size: 20px
+    }
+    main > .imagem3 > p{
+        font-size: 25px;
+        width: auto;
+    }
+    main > .informacoes{
+        width: 100%;
+    }
+    main > .informacoes > hr{
+        display: none;
+    }
+    main > .informacoes > p{
+        font-size: 25px;
+        text-align: center;
+    }
+}
