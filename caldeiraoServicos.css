@@ -1,0 +1,243 @@
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 60px;
+}
+main > h2{
+    color: #101520;
+    text-align: center;
+    font-family: "League Gothic", sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.1px;
+}
+main > picture > img{
+    width: 360px;
+    height: auto;
+}
+main > .informacoes{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    background-color: #B7B7B991;
+}
+main > .informacoes > hr{
+    width: 10px;
+    height: auto;
+    border: none;
+    margin: 0;
+    background-color: #081331;
+}
+main > .informacoes > p{
+    color: #101520;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -2.52px;
+    padding: 40px 0;
+    width: 98%;
+}
+main > .informacoes2{
+    display: flex;
+    width: 95%;
+    column-gap: 10%;
+}
+main > .informacoes2 > hr{
+    width: 7px;
+    height: auto;
+    border: none;
+    margin: 0;
+    background-color: #911D0E;
+}
+main > .informacoes2 > .texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+
+}
+main > .informacoes2 > .texto > h1{
+    color: #831506;
+    text-align: center;
+    font-family: "League Gothic", sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.5px;
+}
+main > .informacoes2 > .texto > ul{
+    color: #101520;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+main > .informacoes2 > .texto > ul > li{
+    list-style-type: disc;
+}
+main > a{
+    display: flex;
+}
+main > a > h1{
+    color: #E6E6E6;
+    text-align: center;
+    font-family: "League Gothic";
+    font-size: 69px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.07px;
+    padding: 30px 60px;
+    background-color: #911D0E;
+    transition: 0.3s;
+}
+main > a > h1:hover,
+main > a > h1:active{
+    transform: scale(1.05);
+    background-color: #a71805;
+}
+/* @media (min-width: 1200px) and (max-width: 1400px){
+
+} */
+@media (min-width: 992px) and (max-width: 1199px){
+    main > a > h1{
+        font-size: 45px;
+    }
+    main > h2{
+        font-size: 60px;
+    }
+    main > .informacoes2{
+        justify-content: center;
+    }
+    main > .informacoes2 > hr{
+        display: none;
+    }
+    main > .informacoes2 > .texto{
+        width: 90%;
+    }
+    main > .informacoes2 > .texto > ul{
+        font-size: 30px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    main > a > h1{
+        font-size: 45px;
+    }
+    main > h2{
+        font-size: 60px;
+    }
+    main > .informacoes2{
+        justify-content: center;
+    }
+    main > .informacoes2 > hr{
+        display: none;
+    }
+    main > .informacoes2 > .texto{
+        width: 90%;
+    }
+    main > .informacoes2 > .texto > ul{
+        font-size: 30px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    main > a > h1{
+        font-size: 45px;
+    }
+    main > h2{
+        font-size: 50px;
+    }
+    main > picture > img{
+        width: 300px;
+        height: auto;
+    }
+    main > .informacoes2{
+        justify-content: center;
+    }
+    main > .informacoes2 > hr{
+        display: none;
+    }
+    main > .informacoes2 > .texto{
+        width: 90%;
+    }
+    main > .informacoes2 > .texto > h1{
+        font-size: 40px;
+    }
+    main > .informacoes2 > .texto > ul{
+        font-size: 25px;
+    }
+}
+@media (min-width: 420px) and (max-width: 575px){
+    main > a > h1{
+        font-size: 35px;
+    }
+    main > .informacoes > p{
+        font-size: 25px;
+    }
+    main > h2{
+        font-size: 40px;
+    }
+    main > picture > img{
+        width: 300px;
+        height: auto;
+    }
+    main > .informacoes2{
+        justify-content: center;
+    }
+    main > .informacoes2 > hr{
+        display: none;
+    }
+    main > .informacoes2 > .texto{
+        width: 90%;
+    }
+    main > .informacoes2 > .texto > h1{
+        font-size: 40px;
+    }
+    main > .informacoes2 > .texto > ul{
+        font-size: 25px;
+        text-align: center;
+    }
+}
+@media (min-width: 320px) and (max-width: 419px){
+    main > a > h1{
+        font-size: 30px;
+        padding: 12px 20px;
+    }
+    main > .informacoes{
+        width: 100%;
+    }
+    main > .informacoes > hr{
+        display: none;
+    }
+    main > .informacoes > p{
+        font-size: 25px;
+        text-align: center;
+    }
+    main > h2{
+        font-size: 30px;
+    }
+    main > picture > img{
+        width: 200px;
+        height: auto;
+    }
+    main > .informacoes2{
+        justify-content: center;
+    }
+    main > .informacoes2 > hr{
+        display: none;
+    }
+    main > .informacoes2 > .texto{
+        width: 90%;
+    }
+    main > .informacoes2 > .texto > h1{
+        font-size: 40px;
+    }
+    main > .informacoes2 > .texto > ul{
+        font-size: 25px;
+        text-align: center;
+    }
+}
