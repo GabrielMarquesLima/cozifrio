@@ -48,11 +48,11 @@ main > .containerBanner > .ladoEsquerdo > .subtitulo > h2{
 main > .containerBanner > picture{
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: center;
 }
 main > .containerBanner > picture > img{
-    width: 674px;
-    height: 473px;
-    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+    max-width: 50%;
 }
 main > h1{
     color: #101520;
@@ -128,8 +128,7 @@ main > .cardServicos > .card > .ladoDireito{
     width: 30%;
 }
 #valvulaPng > img{
-    width: 115px;
-    height: 246px;
+    width: 200px;
     margin-left: 20px;
 }
 #caldeiraoPng > img{
@@ -239,9 +238,7 @@ main > .containerMVV > .containerCards > .card > h2{
         font-size: 14px;
     }
     main > .containerBanner > picture > img{
-        width: 461px;
-        height: 383px;
-        clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+        max-width: 50%;
     }
 }
 @media (min-width: 768px) and (max-width: 991px){
@@ -259,9 +256,7 @@ main > .containerMVV > .containerCards > .card > h2{
         font-size: 14px;
     }
     main > .containerBanner > picture > img{
-        width: 369px;
-        height: 306px;
-        clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+        max-width: 50%;
     }
     main > h1{
         font-size: 65px;
@@ -286,8 +281,7 @@ main > .containerMVV > .containerCards > .card > h2{
         padding: 8px 65px 8px 65px;
     }
     #valvulaPng > img{
-        width: 103px;
-        height: 221px;
+        width: 180px;
         margin-left: 20px;
     }
     #caldeiraoPng > img{
@@ -323,8 +317,6 @@ main > .containerMVV > .containerCards > .card > h2{
     }
     main > .containerBanner > picture > img{
         width: 269px;
-        height: 223px;
-        clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
     }
     main > h1{
         font-size: 60px;
@@ -349,8 +341,7 @@ main > .containerMVV > .containerCards > .card > h2{
         padding: 8px 65px 8px 65px;
     }
     #valvulaPng > img{
-        width: 93px;
-        height: 199px;
+        width: 150px;
         margin-left: 20px;
     }
     #caldeiraoPng > img{
@@ -433,9 +424,8 @@ main > .containerMVV > .containerCards > .card > h2{
         height: 50%;
     }
     #valvulaPng > img{
-        width: 68px;
-        height: 145px;
-        margin-left: 0;
+        width: 110px;
+        margin-left: 20px;
     }
     #caldeiraoPng > img{
         width: 133px;
@@ -542,8 +532,7 @@ main > .containerMVV > .containerCards > .card > h2{
         height: 50%;
     }
     #valvulaPng > img{
-        width: 68px;
-        height: 145px;
+        width: 110px;
         margin-left: 0;
     }
     #caldeiraoPng > img{
@@ -655,9 +644,8 @@ main > .containerMVV > .containerCards > .card > h2{
         height: 50%;
     }
     #valvulaPng > img{
-        width: 68px;
-        height: 145px;
-        margin-left: 0;
+        width: 110px;
+        margin-left: 20px;
     }
     #caldeiraoPng > img{
         width: 133px;
